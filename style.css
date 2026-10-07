@@ -19,3 +19,45 @@ p {
     font-size: 18px;
     line-height: 1.7;
 }
+.hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #e8f5f2, #eef3f8);
+}
+
+.hero-content {
+    max-width: 900px;
+}
+
+.project-label {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    margin: 20px 0;
+}
+
+.hero-description {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.button {
+    display: inline-block;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #263238;
+    color: white;
+    font-weight: bold;
+}
